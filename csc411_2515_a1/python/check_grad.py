@@ -5,7 +5,7 @@ def check_grad(func, X, epsilon, *args):
     """
     checkgrad checks the derivatives in a function, by comparing them to finite
     differences approximations. The partial derivatives and the approximation
-    are printed and the norm of the diffrence divided by the norm of the sum is
+    are printed and the norm of the difference divided by the norm of the sum is
     returned as an indication of accuracy.
 
     usage: checkgrad(func, X, epsilon, P1, P2, ...)
